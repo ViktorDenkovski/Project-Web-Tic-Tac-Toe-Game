@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  color: rgb(44, 41, 44);
+  background-color: rgb(247, 239, 247);
+
+  --main-game-color-200: rgb(174, 196, 200);
+  --main-game-color-500: rgb(51, 126, 141);
+  --main-game-color-700: rgb(7, 104, 123);
+}
+
+#main-header {
+  background-color: var(--main-game-color-500);
+  color: white;
+  padding: 2rem 5%;
+  text-align: center;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--main-game-color-500);
+  color: white;
+  border: 1px solid var(--main-game-color-500);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--main-game-color-500);
+}
+
+.btn:hover {
+  background-color: var(--main-game-color-700);
+  border-color: var(--main-game-color-700);
+}
+
+.btn-alt:hover {
+  background-color: var(--main-game-color-200);
+  border-color: transparent;
+}
